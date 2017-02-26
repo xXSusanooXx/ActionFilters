@@ -19,7 +19,7 @@ namespace MvcApplication2.Filters
             {
                 Console.WriteLine("Handled!");
             }
-            context.ExceptionHandled = true;
+            //context.ExceptionHandled = true;
         }
     }
 }

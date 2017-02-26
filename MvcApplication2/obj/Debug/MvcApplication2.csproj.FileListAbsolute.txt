@@ -54,3 +54,5 @@ D:\hometasks\ActionFilters\MvcApplication2\bin\System.Web.WebPages.xml
 D:\hometasks\ActionFilters\MvcApplication2\bin\System.Web.WebPages.Deployment.xml
 D:\hometasks\ActionFilters\MvcApplication2\bin\System.Web.WebPages.Razor.xml
 D:\hometasks\ActionFilters\MvcApplication2\obj\Debug\MvcApplication2.pdb
+D:\hometasks\ActionFilters\MvcApplication2\bin\log4net.dll
+D:\hometasks\ActionFilters\MvcApplication2\bin\log4net.xml
