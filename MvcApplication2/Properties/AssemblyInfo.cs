@@ -12,6 +12,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyProduct("MvcApplication2")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
+[assembly: log4net.Config.XmlConfigurator(Watch = true)]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 

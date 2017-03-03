@@ -11,11 +11,10 @@ namespace MvcApplication2.BLL
     {
         public void Add(Exception e)
         {
-            using (var context = new ActionFiltersEntities())
+            using (var context = new EfContex())
             {
-                context.Exceptions.Add(new DAL.Exceptions()
+                context.Exceptions.Add(new DAL.ExceptionDb
                 {
-                    Id = context.Exceptions.OrderByDescending(ex=>ex.Id).FirstOrDefault().Id + 1,
                     Message = e.Message,
                     Created = DateTime.Now,
                     Type = e.GetType().ToString()

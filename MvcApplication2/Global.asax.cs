@@ -18,7 +18,7 @@ namespace MvcApplication2
         {
             AreaRegistration.RegisterAllAreas();
             //GlobalFilters.Filters.Add(new MyExceptionFilter());
-            //GlobalFilters.Filters.Add(new MyOwnActionAndResultFilter());
+            GlobalFilters.Filters.Add(new MyOwnActionAndResultFilter());
             WebApiConfig.Register(GlobalConfiguration.Configuration);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
